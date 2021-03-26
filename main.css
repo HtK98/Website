@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-size: 49px;
+}
+
+h2 {
+    font-size: 44px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.img-fluid {
+    width: 100%;
+    display: block;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+
+#about {
+    padding: 70px 0px;
+}
+
+#portfolio {
+    background: #f4f4f4;
+    padding: 20px 0px 50px 0px;
+}
+
+    #portfolio img {
+        margin-bottom: 20px;
+    }
+
+* {
+    box-sizing: border-box;
+}
+
+
+p {
+    line-height: 30px;
+}
+
+section {
+    overflow: hidden;
+}
+
+
+
+header {
+    background: #222;
+    padding: 10px;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul a {
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        padding: 9px 27px;
+        text-decoration: none;
+        display: inline-block;
+        vertical-align: middle;
+        text-transform: uppercase;
+        margin: 0px 10px;
+    }
+
+
+        nav ul a:hover {
+            background-color: white;
+            color: #222;
+        }
+
+.page-content {
+    padding: 30px 0px 100px 0px;
+}
+
+.page-content2 {
+    padding: 60px 0px 40px 0px;
+}
+
+nav ul a.active {
+    background-color: #4f9edc;
+}
+
+.details {
+    background: #eeeeee;
+    border: 1px solid gray;
+    margin-bottom: 50px;
+}
+
+
+
+.btn {
+    background: #4f9edc;
+    text-decoration: none;
+    color: white;
+    padding: 10px 32px;
+    box-shadow: none;
+    border: 1px solid #4f9edc;
+    font-size: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+    .btn:hover {
+        opacity: 0.8;
+    }
+
+
+.row {
+    padding: 0px 20px;
+    width: 100%;
+}
+
+
+.background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-attachment: fixed;
+    background:url(images/banner2.jpg)
+}
+
+.contact{
+        background:url(images/banner.jpg)
+}
+
+.background-content {
+    padding: 190px 0px 230px 0px;
+    background: rgba(0,0,0,0.57);
+}
+
+.background-content-sub {
+    padding: 80px 0px 120px 0px;
+}
+
+.background-content h1 {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.background-content h2 {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 700px;
+    margin: auto;
+    font-weight: 300 !important;
+}
+
+.background-content p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.contact-me {
+    padding: 30px 0px 100px 0px;
+    background: rgba(0,0,0,0.68);
+}
+
+    .contact-me a {
+        color: white;
+        display: inline-block;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .contact-me img {
+        position: relative;
+        top: 4px;
+    }
+
+
+
+
+
+
+
+
+
+.w-10 {
+    width: 10%;
+    float: left;
+}
+
+.w-20 {
+    width: 20%;
+    float: left;
+}
+
+.w-25 {
+    width: 25%;
+    float: left;
+}
+
+.w-30 {
+    width: 30%;
+    float: left;
+}
+
+.w-33 {
+    width: 33%;
+    float: left;
+}
+
+.w-40 {
+    width: 40%;
+    float: left;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+}
+
+
+
